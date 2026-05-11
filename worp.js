@@ -1,6 +1,6 @@
 const CONFIG = {
-  originHost: "sivo.unbl.ac.id",
-  publicHost: "sivo.zetware.id",
+  originHost: "depositori.zetware.id",
+  publicHost: "depositori.prisma.unbl.ac.id",
   protocol: "https"
 };
 
