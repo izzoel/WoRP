@@ -8,11 +8,22 @@ const ORIGIN = `${CONFIG.protocol}://${CONFIG.originHost}`;
 const PUBLIC = `${CONFIG.protocol}://${CONFIG.publicHost}`;
 
 const ASSET_PATH_PREFIXES = [
-  "/images/",
+  "/build/",
   "/css/",
+  "/images/",
+  "/img/",
   "/js/",
+  "/logo/",
   "/plugins/",
-  "/storage/"
+  "/prestasi/",
+  "/profil/",
+  "/thumbnails/",
+  "/storage/",
+  "/uploads/",
+  "/upload/",
+  "/assets/",
+  "/media/",
+  "/files/"
 ];
 
 const ASSET_EXTENSIONS = /\.(png|jpg|jpeg|gif|webp|svg|ico|css|js|woff|woff2|ttf|eot)$/i;
